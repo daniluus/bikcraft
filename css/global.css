@@ -4,6 +4,8 @@
   --bg-3: #2e2e2e;
   --font-family-1: Arial, sans-serif;
   --color-1: #fff;
+  --color-2: #ffbf00;
+  --color-3: #f2a50c;
 }
 
 
@@ -16,10 +18,19 @@
   font-family: var(--font-family-1);
 }
 
+body{
+  height: 2000px;
+}
+
 a{
   text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
 }
