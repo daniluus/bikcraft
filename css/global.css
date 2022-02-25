@@ -1,7 +1,19 @@
+:root{
+  --bg-1: #000;
+  --bg-2: #111;
+  --bg-3: #2e2e2e;
+  --font-family-1: Arial, sans-serif;
+  --color-1: #fff;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: var(--font-family-1);
 }
 
 a{
@@ -10,8 +22,4 @@ a{
 
 ul {
   list-style: none;
-}
-
-:root{
-  --bg-1: #111;
 }
