@@ -8,9 +8,16 @@
   <title>bikcraft</title>
   <meta name="description" content="Bicicletas eletricas de alta precisao e qualidade.">
 
-  <link rel="stylesheet" href="./css/global.css">
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/introducao.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bicicletas/bicicletas.css">
+
+  <!--
+  <link rel="stylesheet" href="./css/global/global.css">
+  <link rel="stylesheet" href="./css/global/header.css">
+  <link rel="stylesheet" href="./css/home/introducao.css">
+  <link rel="stylesheet" href="./css/utilidades/componentes.css">
+  <link rel="stylesheet" href="./css/utilidades/cores.css">
+  -->
 </head>
 
 <body>
@@ -34,6 +41,7 @@
     </div>
   </header>
 
+  <!-- Main -->
   <main class="introducao-bg">
     <article class="introducao">
       <div class="introducao-conteudo">
@@ -42,7 +50,7 @@
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, iste nostrum sunt quibusdam doloribus id itaque, excepturi rem ducimus accusantium officia veniam eligendi repellendus et debitis optio.</p>
 
-        <a href="/">SELECIONE A SUA</a>
+        <a class="botao" href="/">SELECIONE A SUA</a>
       </div>
 
       <!-- Sempre bom envolver a img em uma DIV -->
@@ -51,6 +59,35 @@
       </div>
     </article>
   </main>
+
+  <article class="bicicletas-lista">
+    <h2>escolha a sua<span>.</span></h2>
+
+    <ul>
+      <li>
+        <a href="#">
+          <img src="./img/bicicletas/magic-home.jpg" alt="">
+          <h3>Magic Might</h3>
+          <span>R$2499</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./img/bicicletas/nimbus-home.jpg" alt="">
+          <h3>Nimbus Stark</h3>
+          <span>R$4999</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./img/bicicletas/nebula-home.jpg" alt="">
+          <h3>Nebula Cosmic</h3>
+          <span>R$3999</span>
+        </a>
+      </li>
+    </ul>
+  </article>
+
 </body>
 
 </html>

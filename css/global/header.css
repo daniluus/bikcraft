@@ -1,5 +1,5 @@
 header{
-  background: var(--bg-1);
+  background: var(--cor-12);
 }
 
 .header-container{
@@ -25,7 +25,10 @@ header{
 
 .header-menu a{
   display: inline-block;
-  color: var(--color-1);
+
+  font-family: var(--primary-font);
+  font-weight: 400;
+  color: var(--cor-0);
   font-size: 1.125rem;
   
   padding: 16px 0px;
@@ -44,7 +47,7 @@ header{
   display: block;
   height: 2px;
   width: 0px;
-  background: var(--color-1);
+  background: var(--cor-0);
   margin-top: 4px;
 
   position: absolute;

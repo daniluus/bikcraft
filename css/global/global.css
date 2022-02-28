@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
 :root{
-  --bg-1: #000;
-  --bg-2: #111;
-  --bg-3: #2e2e2e;
-  --font-family-1: Arial, sans-serif;
-  --color-1: #fff;
-  --color-2: #ffbf00;
-  --color-3: #f2a50c;
+
+
+ 
 }
 
 
@@ -14,8 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: var(--font-family-1);
 }
 
 body{
@@ -33,4 +29,8 @@ ul {
 img{
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"]{
+  border-radius: 5px;
 }

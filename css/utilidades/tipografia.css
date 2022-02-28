@@ -1,0 +1,12 @@
+:root{
+   --primary-font: 'Poppins', sans-serif;
+   --secondary--font: 'Roboto', sans-serif;
+}
+
+.font-1-g{
+  font: 600 4rem/1.125 var(--primary-font);
+}
+
+.font-2-m{
+  font: 400 1.5rem/1.5 var(--secondary--font);
+}
